@@ -1,0 +1,195 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.top-wrapper {
+  background-image: url(https://pbs.twimg.com/media/E-ZEyFlVUAIxbJa?format=jpg&name=large);
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+.top-wrapper h1 {
+  font-size: 45px;
+  opacity: 0.7;
+  letter-spacing: 5px;
+  color: white;
+}
+.top-wrapper p1 {
+  padding-bottom: 15px;
+  opacity: 0.7;
+  color: black;
+}
+.mayo {
+  color: red;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa:hover {
+  opacity: 1;
+}
+.fa {
+  margin-right: 5px;
+  opacity: 1;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 65px;
+  float: left;
+}
+.header-right {
+  float: right;
+}
+.news {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.goods {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.guideline {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.header-right li {
+  float: left;
+}
+.news:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.goods:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.guideline:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  color: white;
+  display: block;
+  line-height: 65px;
+  padding: 0 25px;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  padding: 21px 5px;
+}
+.contents-wrapper {
+  height: 1000px;
+  background-color: #CC00FF;
+  text-align: center;
+}
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.heading {
+  color: white
+}
+.heading h2 {
+  font-size: 45px
+}
+.image {
+  float: left;
+  width: 50%;
+}
+.image-icon {
+  text-align: center;
+}
+.txt-contents {
+  font-size: 20px;
+  color: #000;
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+}
+footer {
+  height:50px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .menu-icon {
+    display: block;
+  }
+   .top-wrapper {
+     text-align: left;
+   }
+  .contents-wrapper {
+    height: 1815px;
+    width: 100%;
+  }
+  .top-wrapper {
+    width: 100%; 
+  }
+   .top-wrapper h1 {
+     font-size: 24px;
+   }
+   .top-wrapper p {
+     font-size: 14px;
+   }
+   .image {
+     width: 100%;
+     margin-top: 10px;
+   }
+  iframe {
+    width: 95%;
+ }
+}
